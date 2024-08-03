@@ -1,0 +1,18 @@
+ 
+#sign-back{
+    background-repeat: repeat-y; 
+    background-size: 170%;
+    background-image: linear-gradient(to right, rgb(253, 242, 180), rgba(255,0,0,0));
+    font-size: 16px;
+    height: 105vh;
+}
+
+#signimg{
+    height: 100%;
+    width: 100%;
+}
+
+#error{
+    margin-left: 30%;
+}
+

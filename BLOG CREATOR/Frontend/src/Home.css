@@ -1,0 +1,171 @@
+#title {
+    padding-left: 5%;
+}
+
+#login-btn {
+    position: relative;
+    left: -2%;
+    margin-left: 70%;
+    font-size: medium;
+}
+
+#signup-btn {
+    margin-right: 1%;
+    font-size: medium;
+}
+
+#contents {
+    z-index: -1;
+    overflow: hidden;
+}
+
+#card {
+    width: 55%;
+    min-height: 350px;
+    border-radius: 25px;
+    margin: 20px 21%;
+    height: max-content;
+    /* margin-left: 18.5%; */
+}
+
+#cardcontent {
+    max-width: 100%;
+}
+
+#name {
+    position: relative;
+    top: -2px;
+    left: 2px;
+    font-size: 34px;
+    font-size: 3vmin;
+    /* bottom: -2%; */
+    margin-bottom: -2%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+h5 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#tt {
+    position: relative;
+    left: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.timetag {
+    position: relative;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 16px;
+    width: 50px;
+    margin-top: -5%;
+    top: -2%;
+}
+
+#heading {
+
+    position: relative;
+    top: 25px;
+    left: 15px;
+    bottom: 5px;
+    max-width: 100%;
+    font-size: 1.9rem;
+}
+
+#cbody {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 95%;
+    font-size: 1rem;
+}
+
+#ctext {
+    position: relative;
+    max-width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#imagediv {
+    max-width: 60%;
+    max-height: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#img {
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 330px;
+    height: 230px;
+    max-height: 100%;
+}
+
+#icon {
+    height: 65px;
+}
+
+#head {
+    font-size: xx-large;
+    font-family: cursive;
+    width: 100%
+}
+
+#about {
+   
+    font-family: cursive;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    #imagediv {
+        height: 160px;
+        margin-top: 6%;
+        margin-left: 15%;
+    }
+
+    #icon {
+        height: 35px;
+
+    }
+
+    #heading {
+        font-size: 3vmin;
+    }
+
+    #cbody {
+        font-size: 1.8vmin;
+    }
+
+    .timetag {
+        font-size: 1.7vmin;
+    }
+    footer{
+        height: 300px;
+    }
+    #head {
+        font-size: 4vmin;
+    }
+
+    #about {
+        font-size: 2vmin;
+    }
+
+}

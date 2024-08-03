@@ -1,0 +1,16 @@
+#background-login{
+    background-repeat: repeat-y; 
+    background-size: 150%;
+    background-image: linear-gradient(to right, rgb(253, 242, 180), rgba(255,0,0,0));
+    font-size: 16px;
+    height: 100vh;
+}
+
+#logimg{
+    height: 100%;  
+    width: 105%
+}
+
+
+
+

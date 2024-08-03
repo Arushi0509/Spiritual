@@ -1,0 +1,60 @@
+#navbar-items {
+    /* color: white; */
+    position: relative;
+    left: 15%;
+    font-size: 20px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#title {
+    padding-left: 5%;
+    font-size: 26px;
+}
+
+#Create-btn {
+    margin-left: 92%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    #imagediv {
+        height: 160px;
+        margin-top: 6%;
+        margin-left: 15%;
+    }
+
+    #icon {
+        height: 35px;
+
+    }
+
+    #heading {
+        font-size: 3vmin;
+    }
+
+    #cbody {
+        font-size: 1.8vmin;
+    }
+
+    .timetag {
+        font-size: 1.7vmin;
+    }
+    footer{
+        height: 300px;
+    }
+    #head {
+        font-size: 4vmin;
+    }
+
+    #about {
+        font-size: 2vmin;
+    }
+    #Create-btn{
+        margin-left: 78%;
+    }
+}
